@@ -1,8 +1,8 @@
-class Archive (override val name: String): Managed {
+class Archive(override val name: String) : Managed {
 
     var notes = mutableListOf<Note>()
 
-    override fun toString(): String{
+    override fun toString(): String {
         return name
     }
 }
